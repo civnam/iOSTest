@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Logout View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LogoutViewController" id="Y6W-OH-hqX" customClass="LogoutViewController" customModule="TestiOSBBVA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOD-AA-Y3j">
+                                <rect key="frame" x="16" y="199.5" width="343" height="268"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginImage" translatesAutoresizingMaskIntoConstraints="NO" id="mAw-Mq-Pp3">
+                                        <rect key="frame" x="125.5" y="32" width="92" height="92"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="92" id="Nkt-3z-YO3"/>
+                                            <constraint firstAttribute="height" constant="92" id="eXh-MB-RJY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFr-py-46E">
+                                        <rect key="frame" x="24" y="148" width="295" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User battery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mn-B3-WME">
+                                        <rect key="frame" x="24" y="185" width="295" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8e-bw-aps">
+                                        <rect key="frame" x="16" y="222" width="311" height="30"/>
+                                        <color key="backgroundColor" red="0.082352943720000002" green="0.19215688110000001" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Logout">
+                                            <color key="titleColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="userLogOut:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="XYB-Qn-CL4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="C8e-bw-aps" secondAttribute="trailing" constant="16" id="2k0-Me-iBC"/>
+                                    <constraint firstItem="C8e-bw-aps" firstAttribute="top" secondItem="1mn-B3-WME" secondAttribute="bottom" constant="16" id="4Qq-rO-Gvh"/>
+                                    <constraint firstItem="C8e-bw-aps" firstAttribute="leading" secondItem="DOD-AA-Y3j" secondAttribute="leading" constant="16" id="5ag-78-n5s"/>
+                                    <constraint firstItem="mAw-Mq-Pp3" firstAttribute="centerX" secondItem="DOD-AA-Y3j" secondAttribute="centerX" id="KLi-A2-F4F"/>
+                                    <constraint firstItem="1mn-B3-WME" firstAttribute="top" secondItem="nFr-py-46E" secondAttribute="bottom" constant="16" id="Kc7-9i-u4L"/>
+                                    <constraint firstItem="1mn-B3-WME" firstAttribute="leading" secondItem="DOD-AA-Y3j" secondAttribute="leading" constant="24" id="Pkx-Bj-RRj"/>
+                                    <constraint firstAttribute="trailing" secondItem="1mn-B3-WME" secondAttribute="trailing" constant="24" id="U3v-eE-0cg"/>
+                                    <constraint firstItem="mAw-Mq-Pp3" firstAttribute="top" secondItem="DOD-AA-Y3j" secondAttribute="top" constant="32" id="XYF-Hu-c6g"/>
+                                    <constraint firstAttribute="bottom" secondItem="C8e-bw-aps" secondAttribute="bottom" constant="16" id="XkD-e9-fEV"/>
+                                    <constraint firstItem="mAw-Mq-Pp3" firstAttribute="leading" secondItem="DOD-AA-Y3j" secondAttribute="leading" constant="24" id="mOf-Kj-kka"/>
+                                    <constraint firstItem="nFr-py-46E" firstAttribute="top" secondItem="mAw-Mq-Pp3" secondAttribute="bottom" constant="24" id="scG-rK-fjq"/>
+                                    <constraint firstItem="mAw-Mq-Pp3" firstAttribute="centerX" secondItem="DOD-AA-Y3j" secondAttribute="centerX" id="xFL-IW-xuS"/>
+                                    <constraint firstItem="nFr-py-46E" firstAttribute="leading" secondItem="DOD-AA-Y3j" secondAttribute="leading" constant="24" id="xXb-EQ-BES"/>
+                                    <constraint firstAttribute="trailing" secondItem="mAw-Mq-Pp3" secondAttribute="trailing" constant="24" id="xwT-mk-lOp"/>
+                                    <constraint firstAttribute="trailing" secondItem="nFr-py-46E" secondAttribute="trailing" constant="24" id="zb6-19-NyW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="KLi-A2-F4F"/>
+                                        <exclude reference="mOf-Kj-kka"/>
+                                        <exclude reference="xwT-mk-lOp"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="198" id="8zd-Jt-By5"/>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Dhd-zV-DIW"/>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="eVN-ZI-Q6W"/>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="irS-4K-oFi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DOD-AA-Y3j" secondAttribute="trailing" constant="16" id="kp3-my-dyd"/>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="nDI-eK-yuS"/>
+                            <constraint firstItem="DOD-AA-Y3j" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="sot-Bl-Elw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8zd-Jt-By5"/>
+                                <exclude reference="Dhd-zV-DIW"/>
+                                <exclude reference="nDI-eK-yuS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="userBatteryLbl" destination="1mn-B3-WME" id="dhU-Lu-heE"/>
+                        <outlet property="userEmailLbl" destination="nFr-py-46E" id="y8K-SQ-sYD"/>
+                        <outlet property="userImgVw" destination="mAw-Mq-Pp3" id="JGg-hT-Rts"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="-2.2488755622188905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoginImage" width="156" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

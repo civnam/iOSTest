@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "02A2E35D-2174-4317-8EB9-D2F8ADE6050C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66BA3C9B-904E-41FF-8CB8-09F457A78708"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "readMore(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66BA3C9B-904E-41FF-8CB8-09F457A78708 - 1c7ed759773a5032"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.ArticleDetailViewController.readMore(__C.UIButton) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacdimas/Downloads/TestiOSBBVA/TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "66BA3C9B-904E-41FF-8CB8-09F457A78708 - 1c7ed759773a5032"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.ArticleDetailViewController.readMore(__C.UIButton) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacdimas/Downloads/TestiOSBBVA/TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91A32931-EBF9-41E7-BDFB-1331A802CDA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB6BEF54-EF2D-4D12-A921-01727810D1FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "readMore(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB6BEF54-EF2D-4D12-A921-01727810D1FB - 1c7ed759773a5032"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.ArticleDetailViewController.readMore(__C.UIButton) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacdimas/Downloads/TestiOSBBVA/TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "AB6BEF54-EF2D-4D12-A921-01727810D1FB - 1c7ed759773a5011"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.ArticleDetailViewController.readMore(__C.UIButton) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacdimas/Downloads/TestiOSBBVA/TestiOSBBVA/Modules/NewsModule/ArticleDetail/View/ArticleDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  TestiOSBBVA
+
+  Created by MacBook on 23/06/23.
+  
+*/
+
+// MARK: - Localizable keys for News
+
+"Mexico" = "country=mx";
+"UnitedStates" = "country=us";
+"Canada" = "country=ca";
+
+"business" = "&category=business";
+"entertainment" = "&category=entertainment";
+"health" = "&category=health";
+"science" = "&category=science";
+"sports" = "&category=sports";
+
+"news.cell.nib.name" = "NewsTableViewCell";
+"news.cell.id" = "NewsCell";
+
+"news.api.url" = "https://newsapi.org/v2/top-headlines?";
+"news.api.key" = "&apiKey=88e723894b6745358c5be3868e6ea5fd";
+"news.title" = "iOS News";
+"news.menu.nib.name" = "MenuTableViewCell";
+"news.menu.cell.id" = "MenuCell";
+
+// MARK: - Localizable keys for Users
+
+"users.api.url" = "https://randomuser.me/api?";
+
+"users.title" = "Random Users";
+"users.cell.nib.name" = "UserTableViewCell";
+"users.cell.cell.id" = "UserCell";
+
+"users.results" = "&results=10";
+"users.nationality" = "&nat=ES";
+"users.seed" = "&seed=smartstc";
+
+"logout.title" = "Logout";

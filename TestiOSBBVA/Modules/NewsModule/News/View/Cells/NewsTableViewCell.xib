@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="106" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="TestiOSBBVA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pzx-L4-owj">
+                        <rect key="frame" x="16.000000000000007" y="8" width="96.666666666666686" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="pzx-L4-owj" secondAttribute="height" multiplier="71:66" id="1br-b7-AYo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvm-Gg-amV">
+                        <rect key="frame" x="120.66666666666667" y="8" width="191.33333333333331" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="linkColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMC-Y7-Znt">
+                        <rect key="frame" x="281.33333333333331" y="83.666666666666671" width="30.666666666666686" height="14.333333333333329"/>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pzx-L4-owj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="1E4-v2-bLM"/>
+                    <constraint firstItem="pzx-L4-owj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AhD-7T-lXe"/>
+                    <constraint firstItem="pzx-L4-owj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="CEK-Vo-XbC"/>
+                    <constraint firstItem="zMC-Y7-Znt" firstAttribute="bottom" secondItem="pzx-L4-owj" secondAttribute="bottom" id="Vlz-hb-big"/>
+                    <constraint firstItem="mvm-Gg-amV" firstAttribute="top" secondItem="pzx-L4-owj" secondAttribute="top" id="ZOu-zp-ide"/>
+                    <constraint firstAttribute="trailing" secondItem="zMC-Y7-Znt" secondAttribute="trailing" constant="8" id="aYG-H1-UXO"/>
+                    <constraint firstItem="mvm-Gg-amV" firstAttribute="leading" secondItem="pzx-L4-owj" secondAttribute="trailing" constant="8" symbolic="YES" id="cbA-FW-vvg"/>
+                    <constraint firstAttribute="trailing" secondItem="mvm-Gg-amV" secondAttribute="trailing" constant="8" id="r4A-8R-Iav"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="zMC-Y7-Znt" id="KJp-eT-CNB"/>
+                <outlet property="newsImgVw" destination="pzx-L4-owj" id="bse-mf-Yt6"/>
+                <outlet property="titleLbl" destination="mvm-Gg-amV" id="g8X-YY-gIc"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="55.633802816901408"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

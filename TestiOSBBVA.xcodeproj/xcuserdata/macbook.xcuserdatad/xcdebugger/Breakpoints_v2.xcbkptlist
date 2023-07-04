@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9E2278CB-AB99-4C38-BB7B-572D95B1941C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CEC6967-35CA-45ED-8480-416F19E0E0DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/NewsModule/View/NewsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "registerCells()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31BAD3AE-BC14-49AC-8545-27D0DFBC8742"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/NewsModule/NetworkManager/NewsAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getNewsFromAPI(country:category:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31BAD3AE-BC14-49AC-8545-27D0DFBC8742 - 915c75127291c7b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.NewsAPI.getNewsFromAPI(country: Swift.String, category: Swift.String, completion: (Swift.Array&lt;TestiOSBBVA.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/ExameniOS/TestiOSBBVA/TestiOSBBVA/NewsModule/NetworkManager/NewsAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "762">
+               </Location>
+               <Location
+                  uuid = "31BAD3AE-BC14-49AC-8545-27D0DFBC8742 - 915c75127291c7b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestiOSBBVA.NewsAPI.getNewsFromAPI(country: Swift.String, category: Swift.String, completion: (Swift.Array&lt;TestiOSBBVA.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "TestiOSBBVA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbook/Documents/ExameniOS/TestiOSBBVA/TestiOSBBVA/NewsModule/NetworkManager/NewsAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49A4132B-6CFA-4D00-8F5B-A887188D4C41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestiOSBBVA/NewsModule/View/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Users View Controller-->
+        <scene sceneID="NUQ-zv-dSi">
+            <objects>
+                <viewController storyboardIdentifier="UsersViewController" id="EqN-QP-reO" customClass="UsersViewController" customModule="TestiOSBBVA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jem-bp-Tho">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kNr-77-zji">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <searchBar alpha="0.0" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="VRQ-Lu-LWq">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="GRC-Zy-95P"/>
+                                        </constraints>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBs-tk-4nV" userLabel="View of Stack">
+                                        <rect key="frame" x="0.0" y="1" width="375" height="646"/>
+                                        <subviews>
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WiW-JG-9Vw">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="646"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </tableView>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="lFH-3N-qD7">
+                                                <rect key="frame" x="169" y="304.5" width="37" height="37"/>
+                                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="WiW-JG-9Vw" secondAttribute="trailing" id="97S-Mo-WaZ"/>
+                                            <constraint firstItem="lFH-3N-qD7" firstAttribute="centerX" secondItem="YBs-tk-4nV" secondAttribute="centerX" id="Jok-a7-xoP"/>
+                                            <constraint firstItem="WiW-JG-9Vw" firstAttribute="leading" secondItem="YBs-tk-4nV" secondAttribute="leading" id="K23-XU-Syl"/>
+                                            <constraint firstAttribute="bottom" secondItem="WiW-JG-9Vw" secondAttribute="bottom" id="WZA-QJ-Vd9"/>
+                                            <constraint firstItem="lFH-3N-qD7" firstAttribute="centerY" secondItem="YBs-tk-4nV" secondAttribute="centerY" id="q1i-sc-b3E"/>
+                                            <constraint firstItem="WiW-JG-9Vw" firstAttribute="top" secondItem="YBs-tk-4nV" secondAttribute="top" id="uro-y2-qz2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Ev-e4-UoQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kNr-77-zji" firstAttribute="leading" secondItem="0Ev-e4-UoQ" secondAttribute="leading" id="6Hv-7Y-bK1"/>
+                            <constraint firstItem="kNr-77-zji" firstAttribute="top" secondItem="0Ev-e4-UoQ" secondAttribute="top" id="HjJ-LE-4V7"/>
+                            <constraint firstItem="0Ev-e4-UoQ" firstAttribute="trailing" secondItem="kNr-77-zji" secondAttribute="trailing" id="Lma-rc-k4y"/>
+                            <constraint firstAttribute="bottom" secondItem="kNr-77-zji" secondAttribute="bottom" id="a0b-Qy-eoK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="lFH-3N-qD7" id="CbZ-70-2yC"/>
+                        <outlet property="usersTblVw" destination="WiW-JG-9Vw" id="wDE-Ia-gr5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMe-RV-hdt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="ykR-FQ-qgf">
+                    <connections>
+                        <outlet property="searchBar" destination="VRQ-Lu-LWq" id="bf3-eT-FMr"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1084" y="2.2488755622188905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
